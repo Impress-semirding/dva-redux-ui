@@ -9,12 +9,8 @@ import ui from './ui';
 import reducer from './action-reducer.js';
 
 
-const SHOW = '@@DVA_LOADING/SHOW';
-const HIDE = '@@DVA_LOADING/HIDE';
-const NAMESPACE = 'DVA_UI';
-
 function createUiState(opts = {}) {
-  const namespace = opts.namespace || NAMESPACE;
+  // const namespace = opts.namespace || NAMESPACE;
 
   const extraReducers = {
     ['ui']: reducer,
