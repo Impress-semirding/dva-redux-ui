@@ -1,6 +1,6 @@
 {
   "name": "dva-redux-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "UI state management for Redux and Dva React",
   "main": "transpiled/index.js",
   "scripts": {
