@@ -16,7 +16,7 @@ export default function ui(key, opts = {}) {
   }
 
   const connector = connect(
-    (state) => { ui: getUIState(state) },
+    (state) => { return { ui: getUIState(state) }; },
     dispatch => bindActionCreators({
       updateUI,
       massUpdateUI,
