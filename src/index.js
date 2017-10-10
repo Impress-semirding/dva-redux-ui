@@ -31,7 +31,7 @@ function createUiState(opts = {}) {
   };
 }
 
-export default {
+export {
   createUiState,
-  ui,
+  uiRedux,
 };
