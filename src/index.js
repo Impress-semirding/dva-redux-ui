@@ -5,7 +5,7 @@
  * @modify date 2017-09-13 06:41:30
  * @desc [description]
 */
-import ui from './ui';
+import uiRedux from './ui';
 import reducer from './action-reducer.js';
 
 
